@@ -3,7 +3,7 @@
             [clojure.string :as str]))
 
 (def lib 'com.phronemophobic/cljs-priority-map)
-(def version "1.2.3")
+(def version "1.2.4")
 (def class-dir "target/classes")
 (def basis (b/create-basis {:project "deps.edn"}))
 (def jar-file (format "target/%s-%s.jar" (name lib) version))
